@@ -30,7 +30,12 @@ guardan **exclusivamente en el almacenamiento local de tu dispositivo**:
 - Gasolineras: nombre, marca
 - Preferencias: idioma, tema, moneda, unidades
 
-No se transmiten a ningún servidor. No podemos verlos.
+**Nada de esto se transmite a ningún servidor. No podemos verlo.**
+
+La única excepción, y por eso está aquí y no en la letra pequeña, son las **estadísticas de
+uso anónimas** que se describen en el apartado 6: contadores del tipo «se ha abierto la app» o
+«se ha creado un repostaje». **Nunca incluyen el contenido de la lista de arriba**: ni
+matrículas, ni notas, ni importes, ni ubicaciones.
 
 ---
 
@@ -80,13 +85,43 @@ Google puede tratar datos según sus propias políticas:
 
 ---
 
-## 6. Tus derechos
+## 6. Estadísticas de uso
+
+Para saber si la aplicación funciona y si resulta útil, registramos **un puñado de eventos
+anónimos**: que se ha abierto la aplicación, que se ha completado la configuración inicial,
+que se ha creado o editado un repostaje, y poco más.
+
+**Qué se envía**
+
+- El nombre del evento (por ejemplo, `repostaje.creado`)
+- La fecha y hora
+- Un **identificador aleatorio de instalación**, generado en tu dispositivo. No es el
+  identificador de publicidad ni está relacionado con él, y no permite identificarte
+- Ocasionalmente, un contador o un sí/no (por ejemplo, si el depósito se llenó del todo)
+
+**Qué no se envía nunca**
+
+Ni matrículas, ni notas, ni importes, ni kilómetros, ni ubicaciones, ni nada que hayas
+escrito tú. La aplicación **descarta cualquier texto** antes de enviar, de modo que no es una
+promesa sino una limitación técnica.
+
+**Para qué sirve**
+
+Solo para ver cifras agregadas: cuánta gente usa la aplicación y si vuelve a los pocos días.
+**No creamos perfiles, no tomamos decisiones sobre ti y no vendemos ni compartimos estos datos
+con nadie.** Se almacenan en la Unión Europea, junto al resto.
+
+Si borras tu cuenta, los eventos asociados a ella se borran con ella.
+
+---
+
+## 7. Tus derechos
 
 Conforme al RGPD, tienes derecho a:
 
 - **Acceder** a tus datos — visibles en su totalidad dentro de la aplicación
 - **Rectificarlos** — editables desde la aplicación
-- **Suprimirlos** — ver §7
+- **Suprimirlos** — ver §8
 - **Portabilidad** — escríbenos y te enviamos una copia de tus datos en formato legible
 - **Oponerte** al tratamiento y **retirar tu consentimiento** en cualquier momento
 
@@ -95,7 +130,7 @@ Para ejercerlos, escribe a **pibrstudios@gmail.com**. Responderemos en un plazo 
 
 ---
 
-## 7. Eliminación de datos
+## 8. Eliminación de datos
 
 **Sin cuenta**: desinstala la aplicación, o ve a Ajustes de Android → Aplicaciones →
 Fuelytics → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
@@ -115,27 +150,27 @@ desinstales la aplicación o borres sus datos.
 
 ---
 
-## 8. Conservación
+## 9. Conservación
 
 Conservamos tus datos mientras tu cuenta esté activa. Al eliminarla, se borran de inmediato
-según lo descrito en §7. Las copias de seguridad de la infraestructura se rotan de forma
+según lo descrito en §8. Las copias de seguridad de la infraestructura se rotan de forma
 automática y ninguna sobrevive más de 30 días.
 
 ---
 
-## 9. Servicios de terceros
+## 10. Servicios de terceros
 
-| Servicio         | Finalidad                              | Política                                                           |
-| ---------------- | -------------------------------------- | ------------------------------------------------------------------ |
-| **Supabase**     | Autenticación y almacenamiento (UE)    | [supabase.com/privacy](https://supabase.com/privacy)               |
-| **Google AdMob** | Publicidad                             | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| **Google Play**  | Distribución y pagos                   | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| **Frankfurter**  | Tipos de cambio (sin datos personales) | [frankfurter.app](https://frankfurter.app)                         |
-| **Expo**         | Framework de la aplicación             | [expo.dev/privacy](https://expo.dev/privacy)                       |
+| Servicio         | Finalidad                                                | Política                                                           |
+| ---------------- | -------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Supabase**     | Autenticación, almacenamiento y estadísticas de uso (UE) | [supabase.com/privacy](https://supabase.com/privacy)               |
+| **Google AdMob** | Publicidad                                               | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| **Google Play**  | Distribución y pagos                                     | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| **Frankfurter**  | Tipos de cambio (sin datos personales)                   | [frankfurter.app](https://frankfurter.app)                         |
+| **Expo**         | Framework de la aplicación                               | [expo.dev/privacy](https://expo.dev/privacy)                       |
 
 ---
 
-## 10. Menores
+## 11. Menores
 
 Fuelytics está dirigida a personas adultas propietarias de vehículos. No recopilamos
 conscientemente datos de menores de 16 años. Si crees que un menor nos ha facilitado datos,
@@ -143,7 +178,7 @@ escríbenos y los eliminaremos.
 
 ---
 
-## 11. Cambios en esta política
+## 12. Cambios en esta política
 
 Si modificamos esta política, actualizaremos la fecha de "última actualización". Si los
 cambios afectan de forma sustancial al tratamiento de tus datos, te lo notificaremos dentro de
@@ -151,7 +186,7 @@ la aplicación antes de que entren en vigor.
 
 ---
 
-## 12. Responsable del tratamiento y contacto
+## 13. Responsable del tratamiento y contacto
 
 **PIBR Studios** — pibrstudios@gmail.com
 
@@ -179,7 +214,12 @@ on servers located in the **European Union**.
 ## 2. Without an account (default)
 
 No account is required. All data — vehicles, fuel-ups, stations and preferences — is stored
-**only in your device's local storage**. It is never transmitted and we cannot see it.
+**only in your device's local storage**. None of it is ever transmitted and we cannot see it.
+
+The one exception, stated here rather than in the small print, is the **anonymous usage
+statistics** described in section 6: counters such as "the app was opened" or "a fuel-up was
+created". They **never include any of the content above** — no plates, notes, amounts or
+locations.
 
 ## 3. With an account (optional)
 
@@ -205,13 +245,30 @@ Fuelytics may show ads via **Google AdMob**. In the EEA, UK and Switzerland you 
 for consent before personalised ads are shown. You may **decline** and continue using the app
 normally with non-personalised ads, and change your choice at any time in the app's settings.
 
-## 6. Your rights
+## 6. Usage statistics
+
+To know whether the app works and is useful, we record **a handful of anonymous events**: that
+the app was opened, that setup was completed, that a fuel-up was created or edited, little else.
+
+**What is sent**: the event name, the date and time, a **random installation identifier**
+generated on your device — not the advertising ID, unrelated to it, and unable to identify you
+— and occasionally a counter or a yes/no.
+
+**What is never sent**: no plates, notes, amounts, distances, locations or anything you typed.
+The app **discards any text** before sending, so this is a technical limitation rather than a
+promise.
+
+We only look at aggregate figures: how many people use the app and whether they come back.
+**We do not build profiles, make decisions about you, or sell or share this data.** It is
+stored in the European Union. If you delete your account, the events linked to it go with it.
+
+## 7. Your rights
 
 Under the GDPR you may access, rectify, erase, port and object to the processing of your data,
 and withdraw consent at any time. For portability, email us and we will send you a copy of your
 data in a readable format. Contact **pibrstudios@gmail.com**; we respond within 30 days.
 
-## 7. Deleting your data
+## 8. Deleting your data
 
 **Without an account**: uninstall the app, or Android Settings → Apps → Fuelytics → Storage →
 Clear data. Immediate and irreversible.
@@ -222,28 +279,28 @@ your email, credentials and all vehicles, fuel-ups, stations and preferences fro
 Deletion from within the app is **immediate**, not deferred, and cannot be undone. Requests by
 email are carried out within 30 days.
 
-## 8. Retention
+## 9. Retention
 
 We retain your data while your account is active. Deleted accounts are erased immediately as
-described in §7. Infrastructure backups rotate automatically and none survives beyond 30 days.
+described in §8. Infrastructure backups rotate automatically and none survives beyond 30 days.
 
-## 9. Third-party services
+## 10. Third-party services
 
 Supabase (authentication and storage, EU) · Google AdMob (advertising) · Google Play
 (distribution and payments) · Frankfurter (exchange rates, no personal data) · Expo
 (application framework).
 
-## 10. Children
+## 11. Children
 
 Fuelytics is intended for adult vehicle owners. We do not knowingly collect data from anyone
 under 16. Contact us if you believe a minor has provided us with data and we will delete it.
 
-## 11. Changes
+## 12. Changes
 
 We will update the "last updated" date. Material changes will be notified in-app before taking
 effect.
 
-## 12. Controller and contact
+## 13. Controller and contact
 
 **PIBR Studios** — pibrstudios@gmail.com
 
