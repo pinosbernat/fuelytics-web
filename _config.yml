@@ -1,0 +1,20 @@
+# Sitio público de Fuelytics.
+#
+# Existe por una razón concreta: Google Play exige una **URL pública** donde el usuario pueda
+# solicitar el borrado de su cuenta sin instalar la app. Sin eso no se puede publicar.
+#
+# GitHub Pages renderiza Markdown de forma nativa con Jekyll, así que no hay build ni
+# dependencias: los .md de esta carpeta son el sitio. Ver `docs/RELEASE.md`.
+
+title: Fuelytics
+description: Registra tus repostajes y descubre el consumo real de tu coche.
+lang: es
+
+theme: jekyll-theme-minimal
+
+# Sin analítica y sin cookies: el sitio no necesita ninguna de las dos y así no hay que pedir
+# consentimiento ni declarar nada. Tampoco se declaran plugins: se usan los que GitHub Pages
+# activa por defecto.
+
+exclude:
+  - README.md
