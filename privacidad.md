@@ -49,6 +49,19 @@ Si creas una cuenta, tratamos:
 | Contraseña (cifrada)                                  | Autenticación                                  | Ejecución del contrato |
 | Tus vehículos, repostajes, gasolineras y preferencias | Sincronizar entre tus dispositivos             | Ejecución del contrato |
 
+### Si entras con Google
+
+Puedes crear la cuenta o entrar **con tu cuenta de Google**, en lugar de con una contraseña. Si lo
+haces, Google nos comunica **tu dirección de correo electrónico y tu nombre**. No pedimos ni
+recibimos ningún otro dato de tu cuenta de Google: ni tus contactos, ni tu agenda, ni tu actividad.
+
+El correo se usa para lo mismo que en el caso anterior —identificarte— y el nombre solo se guarda
+porque llega con él; la aplicación no lo muestra en ninguna pantalla.
+
+**Si ese correo ya tenía cuenta en Fuelytics, no se crea una segunda**: entrarás en la que ya
+existía, que pasa a admitir las dos formas de acceso. Puedes ponerle una contraseña en cualquier
+momento desde Ajustes → Perfil de usuario.
+
 Estos datos se almacenan en **Supabase** (infraestructura Postgres alojada en la Unión
 Europea). El acceso está restringido por políticas de seguridad a nivel de fila:
 **solo tu cuenta puede leer o modificar tus datos**.
@@ -226,6 +239,12 @@ locations.
 If you create an account we process your **email address**, an **encrypted password**, and
 your **vehicles, fuel-ups, stations and preferences**, for the sole purpose of syncing across
 your devices. Legal basis: performance of the contract.
+
+**If you sign in with Google**, Google shares your **email address and name** with us — nothing
+else: no contacts, no calendar, no activity. The email is used to identify you; the name is only
+stored because it arrives with it, and the app never displays it. If that email already had a
+Fuelytics account, **no second account is created**: you sign in to the existing one, which then
+accepts both ways in. You can set a password for it at any time from Settings → User profile.
 
 Data is stored on **Supabase** (Postgres infrastructure hosted in the EU). Row-level security
 policies ensure **only your account can read or modify your data**.
