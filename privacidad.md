@@ -1,16 +1,16 @@
 ---
-title: Política de privacidad · Fuelytics
+title: Política de privacidad · Fyltic
 ---
 
-# Política de Privacidad · Fuelytics
+# Política de Privacidad · Fyltic
 
-**Última actualización:** 4 de agosto de 2026
+**Última actualización:** 11 de agosto de 2026
 
 ---
 
 ## 1. Resumen
 
-Fuelytics es una aplicación para registrar repostajes y analizar el consumo de tus vehículos.
+Fyltic es una aplicación para registrar repostajes y analizar el consumo de tus vehículos.
 
 **Funciona íntegramente sin cuenta y sin conexión.** Si no creas una cuenta, tus datos no
 salen nunca de tu dispositivo.
@@ -55,16 +55,40 @@ Puedes crear la cuenta o entrar **con tu cuenta de Google**, en lugar de con una
 haces, Google nos comunica **tu dirección de correo electrónico y tu nombre**. No pedimos ni
 recibimos ningún otro dato de tu cuenta de Google: ni tus contactos, ni tu agenda, ni tu actividad.
 
-El correo se usa para lo mismo que en el caso anterior —identificarte— y el nombre solo se guarda
-porque llega con él; la aplicación no lo muestra en ninguna pantalla.
+El correo se usa para lo mismo que en el caso anterior —identificarte— y el nombre se usa
+únicamente para identificarte ante las personas con las que compartas un vehículo (apartado
+siguiente). Si no compartes ningún vehículo, no se muestra en ninguna pantalla.
 
-**Si ese correo ya tenía cuenta en Fuelytics, no se crea una segunda**: entrarás en la que ya
+**Si ese correo ya tenía cuenta en Fyltic, no se crea una segunda**: entrarás en la que ya
 existía, que pasa a admitir las dos formas de acceso. Puedes ponerle una contraseña en cualquier
 momento desde Ajustes → Perfil de usuario.
 
+### Si compartes un vehículo
+
+Puedes invitar a otras personas —hasta cinco en total— a un vehículo concreto, para llevar entre
+todas el mismo cuaderno de repostajes. **Es la única función de Fyltic en la que tus datos son
+visibles para otra persona, y siempre requiere que tú envíes la invitación.**
+
+Cuando alguien acepta tu invitación:
+
+- Esa persona ve **los repostajes, importes, gasolineras y notas de ese vehículo**, y puede
+  añadirlos, corregirlos y borrarlos. Se comparte el vehículo, **no tu cuenta**: no ve tus otros
+  vehículos, ni tus preferencias, ni ningún dato de tu perfil.
+- Vosotros veis **cómo se llama** cada persona del vehículo, para saber quién registró cada
+  repostaje. Ese nombre es el que Google nos comunicó o, si entraste con contraseña, **la parte de
+  tu correo anterior a la arroba**. Nunca se muestra la dirección de correo completa.
+- La invitación es **de un solo uso**, **caduca a las 24 horas** y puedes retirarla antes de que
+  nadie la use.
+
+Puedes **sacar a cualquier persona** del vehículo, o salir tú, en cualquier momento; el acceso se
+corta de inmediato. Los repostajes ya registrados **se quedan en el vehículo**, porque el consumo
+se calcula de un depósito lleno al siguiente y retirarlos falsearía las cifras de quienes se
+quedan.
+
 Estos datos se almacenan en **Supabase** (infraestructura Postgres alojada en la Unión
-Europea). El acceso está restringido por políticas de seguridad a nivel de fila:
-**solo tu cuenta puede leer o modificar tus datos**.
+Europea). El acceso está restringido por políticas de seguridad a nivel de fila: **solo tu cuenta
+—y las personas que tú hayas invitado a un vehículo, para ese vehículo— pueden leer o modificar
+esos datos**.
 
 No vendemos, alquilamos ni cedemos tus datos a terceros. No los usamos para elaborar
 perfiles ni para publicidad.
@@ -84,7 +108,7 @@ ningún dato personal, ni identificador, ni importe.
 
 ## 5. Publicidad
 
-Fuelytics puede mostrar publicidad a través de **Google AdMob**.
+Fyltic puede mostrar publicidad a través de **Google AdMob**.
 
 En el Espacio Económico Europeo, Reino Unido y Suiza se te solicitará tu consentimiento antes
 de mostrar anuncios personalizados. Puedes **rechazarlo** y seguir usando la aplicación con
@@ -146,7 +170,7 @@ Para ejercerlos, escribe a **pibrstudios@gmail.com**. Responderemos en un plazo 
 ## 8. Eliminación de datos
 
 **Sin cuenta**: desinstala la aplicación, o ve a Ajustes de Android → Aplicaciones →
-Fuelytics → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
+Fyltic → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
 
 **Con cuenta**: puedes eliminar tu cuenta y todos sus datos desde la propia aplicación, en
 Cuenta → Eliminar cuenta. También puedes solicitarlo escribiendo a **pibrstudios@gmail.com**.
@@ -185,7 +209,7 @@ automática y ninguna sobrevive más de 30 días.
 
 ## 11. Menores
 
-Fuelytics está dirigida a personas adultas propietarias de vehículos. No recopilamos
+Fyltic está dirigida a personas adultas propietarias de vehículos. No recopilamos
 conscientemente datos de menores de 16 años. Si crees que un menor nos ha facilitado datos,
 escríbenos y los eliminaremos.
 
@@ -212,13 +236,13 @@ ante la autoridad de control de tu país. En España, la
 <details>
 <summary><strong>English version</strong></summary>
 
-# Privacy Policy · Fuelytics
+# Privacy Policy · Fyltic
 
-**Last updated:** 4 August 2026
+**Last updated:** 11 August 2026
 
 ## 1. Summary
 
-Fuelytics records fuel-ups and analyses your vehicles' consumption.
+Fyltic records fuel-ups and analyses your vehicles' consumption.
 
 **It works entirely without an account and offline.** If you do not create an account, your
 data never leaves your device. If you create one to sync across devices, your data is stored
@@ -241,13 +265,28 @@ your **vehicles, fuel-ups, stations and preferences**, for the sole purpose of s
 your devices. Legal basis: performance of the contract.
 
 **If you sign in with Google**, Google shares your **email address and name** with us — nothing
-else: no contacts, no calendar, no activity. The email is used to identify you; the name is only
-stored because it arrives with it, and the app never displays it. If that email already had a
-Fuelytics account, **no second account is created**: you sign in to the existing one, which then
-accepts both ways in. You can set a password for it at any time from Settings → User profile.
+else: no contacts, no calendar, no activity. The email is used to identify you; the name is used
+only to identify you to people you share a vehicle with (below), and is shown nowhere if you share
+none. If that email already had a Fyltic account, **no second account is created**: you sign in
+to the existing one, which then accepts both ways in. You can set a password for it at any time
+from Settings → User profile.
+
+**If you share a vehicle**, you can invite other people — five in total at most — to one specific
+vehicle, so that you all keep the same fuel log. This is the only feature in Fyltic where your
+data becomes visible to someone else, and it always requires you to send the invitation. Whoever
+accepts sees **the fuel-ups, amounts, stations and notes of that vehicle**, and can add, correct
+and delete them; they do not see your other vehicles, your preferences or anything from your
+profile. You each see **the name** of the other people in the vehicle, so you know who logged
+what: that name is the one Google gave us or, if you signed up with a password, **the part of your
+email before the @** — the full address is never shown. Invitations are **single-use**, **expire
+after 24 hours**, and can be revoked before anyone uses them. You can remove anyone from the
+vehicle, or leave it yourself, at any time; access stops immediately. Fuel-ups already logged
+**stay with the vehicle**, because consumption is measured from one full tank to the next and
+removing them would falsify the figures for whoever stays.
 
 Data is stored on **Supabase** (Postgres infrastructure hosted in the EU). Row-level security
-policies ensure **only your account can read or modify your data**.
+policies ensure **only your account — and the people you invited to a vehicle, for that
+vehicle — can read or modify that data**.
 
 We do not sell, rent or share your data with third parties, and we do not use it for
 profiling or advertising.
@@ -260,7 +299,7 @@ code is transmitted — no personal data, identifiers or amounts.
 
 ## 5. Advertising
 
-Fuelytics may show ads via **Google AdMob**. In the EEA, UK and Switzerland you will be asked
+Fyltic may show ads via **Google AdMob**. In the EEA, UK and Switzerland you will be asked
 for consent before personalised ads are shown. You may **decline** and continue using the app
 normally with non-personalised ads, and change your choice at any time in the app's settings.
 
@@ -289,7 +328,7 @@ data in a readable format. Contact **pibrstudios@gmail.com**; we respond within 
 
 ## 8. Deleting your data
 
-**Without an account**: uninstall the app, or Android Settings → Apps → Fuelytics → Storage →
+**Without an account**: uninstall the app, or Android Settings → Apps → Fyltic → Storage →
 Clear data. Immediate and irreversible.
 
 **With an account**: delete your account and all its data from within the app, under
@@ -311,7 +350,7 @@ Supabase (authentication and storage, EU) · Google AdMob (advertising) · Googl
 
 ## 11. Children
 
-Fuelytics is intended for adult vehicle owners. We do not knowingly collect data from anyone
+Fyltic is intended for adult vehicle owners. We do not knowingly collect data from anyone
 under 16. Contact us if you believe a minor has provided us with data and we will delete it.
 
 ## 12. Changes
