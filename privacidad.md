@@ -1,8 +1,8 @@
 ---
-title: Política de privacidad · Fyltic
+title: Política de privacidad · Fueltic
 ---
 
-# Política de Privacidad · Fyltic
+# Política de Privacidad · Fueltic
 
 **Última actualización:** 11 de agosto de 2026
 
@@ -10,7 +10,7 @@ title: Política de privacidad · Fyltic
 
 ## 1. Resumen
 
-Fyltic es una aplicación para registrar repostajes y analizar el consumo de tus vehículos.
+Fueltic es una aplicación para registrar repostajes y analizar el consumo de tus vehículos.
 
 **Funciona íntegramente sin cuenta y sin conexión.** Si no creas una cuenta, tus datos no
 salen nunca de tu dispositivo.
@@ -59,14 +59,14 @@ El correo se usa para lo mismo que en el caso anterior —identificarte— y el 
 únicamente para identificarte ante las personas con las que compartas un vehículo (apartado
 siguiente). Si no compartes ningún vehículo, no se muestra en ninguna pantalla.
 
-**Si ese correo ya tenía cuenta en Fyltic, no se crea una segunda**: entrarás en la que ya
+**Si ese correo ya tenía cuenta en Fueltic, no se crea una segunda**: entrarás en la que ya
 existía, que pasa a admitir las dos formas de acceso. Puedes ponerle una contraseña en cualquier
 momento desde Ajustes → Perfil de usuario.
 
 ### Si compartes un vehículo
 
 Puedes invitar a otras personas —hasta cinco en total— a un vehículo concreto, para llevar entre
-todas el mismo cuaderno de repostajes. **Es la única función de Fyltic en la que tus datos son
+todas el mismo cuaderno de repostajes. **Es la única función de Fueltic en la que tus datos son
 visibles para otra persona, y siempre requiere que tú envíes la invitación.**
 
 Cuando alguien acepta tu invitación:
@@ -108,7 +108,7 @@ ningún dato personal, ni identificador, ni importe.
 
 ## 5. Publicidad
 
-Fyltic puede mostrar publicidad a través de **Google AdMob**.
+Fueltic puede mostrar publicidad a través de **Google AdMob**.
 
 En el Espacio Económico Europeo, Reino Unido y Suiza se te solicitará tu consentimiento antes
 de mostrar anuncios personalizados. Puedes **rechazarlo** y seguir usando la aplicación con
@@ -170,7 +170,7 @@ Para ejercerlos, escribe a **pibrstudios@gmail.com**. Responderemos en un plazo 
 ## 8. Eliminación de datos
 
 **Sin cuenta**: desinstala la aplicación, o ve a Ajustes de Android → Aplicaciones →
-Fyltic → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
+Fueltic → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
 
 **Con cuenta**: puedes eliminar tu cuenta y todos sus datos desde la propia aplicación, en
 Cuenta → Eliminar cuenta. También puedes solicitarlo escribiendo a **pibrstudios@gmail.com**.
@@ -209,7 +209,7 @@ automática y ninguna sobrevive más de 30 días.
 
 ## 11. Menores
 
-Fyltic está dirigida a personas adultas propietarias de vehículos. No recopilamos
+Fueltic está dirigida a personas adultas propietarias de vehículos. No recopilamos
 conscientemente datos de menores de 16 años. Si crees que un menor nos ha facilitado datos,
 escríbenos y los eliminaremos.
 
@@ -236,13 +236,13 @@ ante la autoridad de control de tu país. En España, la
 <details>
 <summary><strong>English version</strong></summary>
 
-# Privacy Policy · Fyltic
+# Privacy Policy · Fueltic
 
 **Last updated:** 11 August 2026
 
 ## 1. Summary
 
-Fyltic records fuel-ups and analyses your vehicles' consumption.
+Fueltic records fuel-ups and analyses your vehicles' consumption.
 
 **It works entirely without an account and offline.** If you do not create an account, your
 data never leaves your device. If you create one to sync across devices, your data is stored
@@ -267,12 +267,12 @@ your devices. Legal basis: performance of the contract.
 **If you sign in with Google**, Google shares your **email address and name** with us — nothing
 else: no contacts, no calendar, no activity. The email is used to identify you; the name is used
 only to identify you to people you share a vehicle with (below), and is shown nowhere if you share
-none. If that email already had a Fyltic account, **no second account is created**: you sign in
+none. If that email already had a Fueltic account, **no second account is created**: you sign in
 to the existing one, which then accepts both ways in. You can set a password for it at any time
 from Settings → User profile.
 
 **If you share a vehicle**, you can invite other people — five in total at most — to one specific
-vehicle, so that you all keep the same fuel log. This is the only feature in Fyltic where your
+vehicle, so that you all keep the same fuel log. This is the only feature in Fueltic where your
 data becomes visible to someone else, and it always requires you to send the invitation. Whoever
 accepts sees **the fuel-ups, amounts, stations and notes of that vehicle**, and can add, correct
 and delete them; they do not see your other vehicles, your preferences or anything from your
@@ -299,7 +299,7 @@ code is transmitted — no personal data, identifiers or amounts.
 
 ## 5. Advertising
 
-Fyltic may show ads via **Google AdMob**. In the EEA, UK and Switzerland you will be asked
+Fueltic may show ads via **Google AdMob**. In the EEA, UK and Switzerland you will be asked
 for consent before personalised ads are shown. You may **decline** and continue using the app
 normally with non-personalised ads, and change your choice at any time in the app's settings.
 
@@ -328,7 +328,7 @@ data in a readable format. Contact **pibrstudios@gmail.com**; we respond within 
 
 ## 8. Deleting your data
 
-**Without an account**: uninstall the app, or Android Settings → Apps → Fyltic → Storage →
+**Without an account**: uninstall the app, or Android Settings → Apps → Fueltic → Storage →
 Clear data. Immediate and irreversible.
 
 **With an account**: delete your account and all its data from within the app, under
@@ -350,7 +350,7 @@ Supabase (authentication and storage, EU) · Google AdMob (advertising) · Googl
 
 ## 11. Children
 
-Fyltic is intended for adult vehicle owners. We do not knowingly collect data from anyone
+Fueltic is intended for adult vehicle owners. We do not knowingly collect data from anyone
 under 16. Contact us if you believe a minor has provided us with data and we will delete it.
 
 ## 12. Changes

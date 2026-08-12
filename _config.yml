@@ -1,4 +1,4 @@
-# Sitio público de Fyltic.
+# Sitio público de Fueltic.
 #
 # Existe por una razón concreta: Google Play exige una **URL pública** donde el usuario pueda
 # solicitar el borrado de su cuenta sin instalar la app. Sin eso no se puede publicar.
@@ -6,7 +6,7 @@
 # GitHub Pages renderiza Markdown de forma nativa con Jekyll, así que no hay build ni
 # dependencias: los .md de esta carpeta son el sitio. Ver `docs/RELEASE.md`.
 
-title: Fyltic
+title: Fueltic
 description: Registra tus repostajes y descubre el consumo real de tu coche.
 lang: es
 

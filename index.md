@@ -1,12 +1,12 @@
 ---
-title: Fyltic
+title: Fueltic
 ---
 
-# Fyltic
+# Fueltic
 
 **Registra tus repostajes y descubre el consumo real de tu coche.**
 
-Fyltic calcula el consumo por el método **lleno a lleno**, que es el único exacto: acumula
+Fueltic calcula el consumo por el método **lleno a lleno**, que es el único exacto: acumula
 los repostajes parciales y solo cierra un intervalo cuando vuelves a llenar el depósito. Nada
 de medias inventadas.
 
@@ -25,7 +25,7 @@ puedes crear una cuenta; si no, tus datos no salen nunca del móvil.
 
 <small>
 
-**Fyltic** — App móvil de PIBR Studios · `com.pinosbernat.fyltic`
+**Fueltic** — App móvil de PIBR Studios · `com.pinosbernat.fueltic`
 
 Fuel-up log and real fuel consumption tracking. Works fully offline and without an account.
 See the [privacy policy](privacidad.html) or [delete your account](eliminar-cuenta.html).

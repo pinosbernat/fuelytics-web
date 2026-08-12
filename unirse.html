@@ -1,11 +1,11 @@
 ---
-title: Unirte a un coche · Fyltic
+title: Unirte a un coche · Fueltic
 ---
 
 <!--
   Donde aterriza el enlace de invitación a un coche compartido.
 
-  🔴 **Existe porque un enlace `fyltic://` no sirve para invitar a nadie.** Quien recibe la
+  🔴 **Existe porque un enlace `fueltic://` no sirve para invitar a nadie.** Quien recibe la
   invitación es, por definición, alguien que puede no tener la app: un esquema propio no se abre,
   y en WhatsApp ni siquiera se pinta como enlace. Esta página sí es una URL normal, intenta abrir
   la app con el mismo token y, si no está, ofrece instalarla.
@@ -16,11 +16,11 @@ title: Unirte a un coche · Fyltic
 
 <h1>Unirte a un coche</h1>
 
-<p id="mensaje">Abriendo Fyltic…</p>
+<p id="mensaje">Abriendo Fueltic…</p>
 
 <p id="acciones" hidden>
-  <a id="abrir" href="#">Abrir en Fyltic</a> ·
-  <a href="https://play.google.com/store/apps/details?id=com.pinosbernat.fyltic">Instalar Fyltic</a>
+  <a id="abrir" href="#">Abrir en Fueltic</a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.pinosbernat.fueltic">Instalar Fueltic</a>
 </p>
 
 <p id="sinToken" hidden>
@@ -48,7 +48,7 @@ title: Unirte a un coche · Fyltic
 			return;
 		}
 
-		var destino = 'fyltic://unirse?token=' + encodeURIComponent(token);
+		var destino = 'fueltic://unirse?token=' + encodeURIComponent(token);
 		document.getElementById('abrir').href = destino;
 
 		// Se intenta abrir la app y, pase lo que pase, se enseñan las dos salidas. No hay forma
