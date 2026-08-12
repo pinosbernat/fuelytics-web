@@ -212,14 +212,14 @@ automática y ninguna sobrevive más de 30 días.
 
 ## 10. Servicios de terceros
 
-| Servicio         | Finalidad                                                | Política                                                           |
-| ---------------- | -------------------------------------------------------- | ------------------------------------------------------------------ |
-| **Supabase**     | Autenticación, almacenamiento y estadísticas de uso (UE) | [supabase.com/privacy](https://supabase.com/privacy)               |
-| **Google AdMob** | Publicidad                                               | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| **Google Play**  | Distribución y pagos                                     | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Servicio         | Finalidad                                                 | Política                                                                   |
+| ---------------- | --------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Supabase**     | Autenticación, almacenamiento y estadísticas de uso (UE)  | [supabase.com/privacy](https://supabase.com/privacy)                       |
+| **Google AdMob** | Publicidad                                                | [policies.google.com/privacy](https://policies.google.com/privacy)         |
+| **Google Play**  | Distribución y pagos                                      | [policies.google.com/privacy](https://policies.google.com/privacy)         |
 | **Resend**       | Envío del correo transaccional (confirmación, contraseña) | [resend.com/legal/privacy-policy](https://resend.com/legal/privacy-policy) |
-| **Frankfurter**  | Tipos de cambio (sin datos personales)                   | [frankfurter.app](https://frankfurter.app)                         |
-| **Expo**         | Framework de la aplicación                               | [expo.dev/privacy](https://expo.dev/privacy)                       |
+| **Frankfurter**  | Tipos de cambio (sin datos personales)                    | [frankfurter.app](https://frankfurter.app)                                 |
+| **Expo**         | Framework de la aplicación                                | [expo.dev/privacy](https://expo.dev/privacy)                               |
 
 ---
 
