@@ -183,7 +183,8 @@ Para ejercerlos, escribe a **pibrstudios@gmail.com**. Responderemos en un plazo 
 Fueltic → Almacenamiento → Borrar datos. La eliminación es inmediata e irreversible.
 
 **Con cuenta**: puedes eliminar tu cuenta y todos sus datos desde la propia aplicación, en
-Cuenta → Eliminar cuenta. También puedes solicitarlo escribiendo a **pibrstudios@gmail.com**.
+Ajustes → Perfil de usuario → Eliminar cuenta. También puedes solicitarlo escribiendo a
+**pibrstudios@gmail.com**.
 
 Al eliminar la cuenta se borran de forma permanente tu correo electrónico, tus credenciales y
 todos tus vehículos, repostajes, gasolineras y preferencias almacenados en nuestros servidores.
@@ -216,6 +217,7 @@ automática y ninguna sobrevive más de 30 días.
 | **Supabase**     | Autenticación, almacenamiento y estadísticas de uso (UE) | [supabase.com/privacy](https://supabase.com/privacy)               |
 | **Google AdMob** | Publicidad                                               | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | **Google Play**  | Distribución y pagos                                     | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| **Resend**       | Envío del correo transaccional (confirmación, contraseña) | [resend.com/legal/privacy-policy](https://resend.com/legal/privacy-policy) |
 | **Frankfurter**  | Tipos de cambio (sin datos personales)                   | [frankfurter.app](https://frankfurter.app)                         |
 | **Expo**         | Framework de la aplicación                               | [expo.dev/privacy](https://expo.dev/privacy)                       |
 
@@ -354,7 +356,7 @@ data in a readable format. Contact **pibrstudios@gmail.com**; we respond within 
 Clear data. Immediate and irreversible.
 
 **With an account**: delete your account and all its data from within the app, under
-Account → Delete account, or by emailing **pibrstudios@gmail.com**. This permanently erases
+Settings → User profile → Delete account, or by emailing **pibrstudios@gmail.com**. This permanently erases
 your email, credentials and all vehicles, fuel-ups, stations and preferences from our servers.
 Deletion from within the app is **immediate**, not deferred, and cannot be undone. Requests by
 email are carried out within 30 days.
@@ -366,7 +368,7 @@ described in §8. Infrastructure backups rotate automatically and none survives 
 
 ## 10. Third-party services
 
-Supabase (authentication and storage, EU) · Google AdMob (advertising) · Google Play
+Supabase (authentication and storage, EU) · Resend (transactional email) · Google AdMob (advertising) · Google Play
 (distribution and payments) · Frankfurter (exchange rates, no personal data) · Expo
 (application framework).
 

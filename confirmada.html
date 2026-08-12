@@ -1,0 +1,37 @@
+---
+title: Cuenta confirmada · Fueltic
+layout: default
+---
+
+<!--
+  Donde aterriza quien pulsa el enlace de confirmación del correo de registro.
+
+  🔴 **Existe porque sin ella se aterrizaba en la portada.** `signUp` no llevaba `emailRedirectTo`,
+  así que Supabase mandaba al `site_url` del proyecto: una página de marketing que **no dice ni que
+  la cuenta esté confirmada**, ni que vinieras de un correo, ni qué hacer después. El usuario
+  acababa de hacer lo que se le pedía y no recibía ninguna confirmación de haberlo hecho
+  (`docs/HALLAZGOS.md` · #21).
+
+  📌 **No intenta abrir la app.** La confirmación se hace a menudo desde el ordenador, y saltar a un
+  esquema que ahí no existe deja la pantalla en blanco. La app detecta la sesión sola al volver.
+-->
+
+<h1>Cuenta confirmada</h1>
+
+<p>
+  Ya está: tu correo está verificado y tu cuenta de Fueltic es tuya del todo.
+</p>
+
+<p>
+  <strong>Vuelve a la app y entra con tu correo y tu contraseña.</strong> Desde ese momento tus
+  repostajes se guardan también fuera del móvil, así que no se pierden si lo cambias o lo pierdes.
+</p>
+
+<hr />
+
+<p><small>
+  ¿No has sido tú? Entonces alguien escribió tu correo por error al registrarse. No hace falta que
+  hagas nada: sin tu contraseña, esa cuenta no da acceso a nada tuyo. Puedes borrarla desde la
+  <a href="eliminar-cuenta.html">página de eliminación de cuenta</a>.
+  Ver la <a href="privacidad.html">política de privacidad</a>.
+</small></p>

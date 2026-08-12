@@ -17,6 +17,16 @@ url: https://fueltic.com
 
 theme: jekyll-theme-minimal
 
+# 🔴 **Sin esto, las cuatro páginas enseñan «View the Project on GitHub · pinosbernat/fuelytics-web».**
+#
+# `jekyll-theme-minimal` pinta ese bloque cuando `site.github.is_project_page` es cierto, y lo rellena
+# con los datos que la API de GitHub le da del repositorio — que conserva el nombre viejo, porque el
+# repositorio no se renombró con la app. Resultado: **la marca muerta, en la barra lateral de la
+# página que abre un invitado**, y un enlace al código desde la política de privacidad que Google
+# tiene registrada. Se apaga declarándolo en la configuración, que gana sobre lo que trae la API.
+github:
+  is_project_page: false
+
 # Sin analítica y sin cookies: el sitio no necesita ninguna de las dos y así no hay que pedir
 # consentimiento ni declarar nada. Tampoco se declaran plugins: se usan los que GitHub Pages
 # activa por defecto.
