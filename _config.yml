@@ -10,6 +10,11 @@ title: Fueltic
 description: Registra tus repostajes y descubre el consumo real de tu coche.
 lang: es
 
+# 🔴 Sin esto, Jekyll construye las canónicas y los `og:url` con el esquema que le da GitHub, que
+# es `http://`. El resultado era que la política de privacidad y la página de borrado de cuenta
+# —las dos que Google exige— se anunciaban a sí mismas en claro y así las indexaba el buscador.
+url: https://fueltic.com
+
 theme: jekyll-theme-minimal
 
 # Sin analítica y sin cookies: el sitio no necesita ninguna de las dos y así no hay que pedir

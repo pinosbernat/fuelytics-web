@@ -85,6 +85,14 @@ corta de inmediato. Los repostajes ya registrados **se quedan en el vehículo**,
 se calcula de un depósito lleno al siguiente y retirarlos falsearía las cifras de quienes se
 quedan.
 
+**Y si eliminas tu cuenta teniendo un vehículo compartido**, ese vehículo **no se destruye**: pasa a
+la persona que lleva más tiempo en él, junto con el historial y las gasolineras que ese historial
+usa. Tus repostajes se quedan ahí, **sin tu nombre**: quien los mire verá «otra persona». Es la
+misma razón de siempre —el consumo se calcula de un lleno al siguiente, y borrarlos falsearía las
+cifras de los demás—, y significa que **hay datos que registraste tú y que sobreviven a tu
+borrado**, porque a partir de ese momento son de otra persona. Los vehículos que no compartes con
+nadie sí se eliminan por completo.
+
 Estos datos se almacenan en **Supabase** (infraestructura Postgres alojada en la Unión
 Europea). El acceso está restringido por políticas de seguridad a nivel de fila: **solo tu cuenta
 —y las personas que tú hayas invitado a un vehículo, para ese vehículo— pueden leer o modificar
@@ -283,6 +291,12 @@ after 24 hours**, and can be revoked before anyone uses them. You can remove any
 vehicle, or leave it yourself, at any time; access stops immediately. Fuel-ups already logged
 **stay with the vehicle**, because consumption is measured from one full tank to the next and
 removing them would falsify the figures for whoever stays.
+
+**And if you delete your account while sharing a vehicle**, that vehicle **is not destroyed**: it
+passes to whoever has been in it the longest, together with its history and the stations that
+history uses. Your fuel-ups stay there **without your name** — anyone looking will see "someone
+else". Same reason as always, and it means **some data you logged survives your deletion**, because
+from that moment it belongs to someone else. Vehicles you share with nobody are deleted in full.
 
 Data is stored on **Supabase** (Postgres infrastructure hosted in the EU). Row-level security
 policies ensure **only your account — and the people you invited to a vehicle, for that

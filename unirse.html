@@ -1,6 +1,18 @@
 ---
 title: Unirte a un coche · Fueltic
+layout: default
 ---
+
+<!--
+  🔴 **`layout: default` NO es opcional en este fichero, y su ausencia no da ningún error.**
+
+  El plugin `jekyll-default-layout` asigna la plantilla por defecto a los ficheros **Markdown**;
+  un `.html` sin `layout:` sale crudo, sin `<!DOCTYPE>`, sin `<head>` y —lo que se ve— **sin
+  `<meta name="viewport">`. La página se servía en serif, pegada al borde izquierdo y sin ancho de
+  dispositivo, justo en el sitio donde un invitado decide si instala la app.
+  Las tres páginas `.md` de al lado sí llevaban plantilla, así que el fallo era invisible salvo
+  abriendo esta en un móvil.
+-->
 
 <!--
   Donde aterriza el enlace de invitación a un coche compartido.
