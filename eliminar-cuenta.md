@@ -39,7 +39,12 @@ Al eliminar tu cuenta se borra de forma **permanente e irreversible** todo lo qu
 - Tus **gasolineras**
 - Tus **preferencias** sincronizadas
 
-No conservamos ninguna copia asociada a tu cuenta. Las copias de seguridad de la
+**Con una excepción: los vehículos que compartes con otras personas.** Ese vehículo no se
+destruye — pasa a quien lleva más tiempo en él, junto con su historial y las gasolineras que ese
+historial usa, y los repostajes que registraste se quedan ahí **sin tu nombre**: quien los mire verá
+«otra persona». Los vehículos que no compartes con nadie se borran por completo.
+
+**Salvo ese traspaso**, no conservamos ninguna copia asociada a tu cuenta. Las copias de seguridad de la
 infraestructura se rotan de forma automática y **ninguna sobrevive más de 30 días**.
 
 ## Qué NO se elimina
@@ -83,7 +88,14 @@ from the address you signed up with. We complete it **within 30 days** and confi
 ## What is deleted
 
 Permanently and irreversibly: your **email address** and credentials, your **vehicles**,
-**fuel-ups**, **stations** and synced **preferences**. No copy tied to your account is kept.
+**fuel-ups**, **stations** and synced **preferences**.
+
+**With one exception: vehicles you share with other people.** That vehicle is not destroyed — it
+passes to whoever has been in it the longest, together with its history and the stations that history
+uses, and the fuel-ups you logged stay there **without your name**: anyone looking will see "someone
+else". Vehicles you share with nobody are deleted in full.
+
+**Apart from that transfer**, no copy tied to your account is kept.
 Infrastructure backups rotate automatically and none survives beyond **30 days**.
 
 ## What is not deleted

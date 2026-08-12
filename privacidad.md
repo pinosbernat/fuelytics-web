@@ -4,7 +4,7 @@ title: Política de privacidad · Fueltic
 
 # Política de Privacidad · Fueltic
 
-**Última actualización:** 11 de agosto de 2026
+**Última actualización:** 12 de agosto de 2026
 
 ---
 
@@ -72,7 +72,9 @@ visibles para otra persona, y siempre requiere que tú envíes la invitación.**
 Cuando alguien acepta tu invitación:
 
 - Esa persona ve **los repostajes, importes, gasolineras y notas de ese vehículo**, y puede
-  añadirlos, corregirlos y borrarlos. Se comparte el vehículo, **no tu cuenta**: no ve tus otros
+  **añadirlos y corregirlos**. **Borrar, solo los suyos**: los que registró otra persona únicamente
+  los puede borrar quien creó el vehículo, que es además la única que puede eliminar el vehículo
+  entero. Se comparte el vehículo, **no tu cuenta**: no ve tus otros
   vehículos, ni tus preferencias, ni ningún dato de tu perfil.
 - Vosotros veis **cómo se llama** cada persona del vehículo, para saber quién registró cada
   repostaje. Ese nombre es el que Google nos comunicó o, si entraste con contraseña, **la parte de
@@ -80,8 +82,8 @@ Cuando alguien acepta tu invitación:
 - La invitación es **de un solo uso**, **caduca a las 24 horas** y puedes retirarla antes de que
   nadie la use.
 
-Puedes **sacar a cualquier persona** del vehículo, o salir tú, en cualquier momento; el acceso se
-corta de inmediato. Los repostajes ya registrados **se quedan en el vehículo**, porque el consumo
+Si creaste el vehículo puedes **sacar de él a cualquier persona** en cualquier momento; si te
+invitaron, puedes **salir** cuando quieras. El acceso se corta de inmediato. Los repostajes ya registrados **se quedan en el vehículo**, porque el consumo
 se calcula de un depósito lleno al siguiente y retirarlos falsearía las cifras de quienes se
 quedan.
 
@@ -187,6 +189,10 @@ Al eliminar la cuenta se borran de forma permanente tu correo electrónico, tus 
 todos tus vehículos, repostajes, gasolineras y preferencias almacenados en nuestros servidores.
 **El borrado es inmediato**: ocurre en el momento, no en diferido, y **no es reversible**.
 
+⚠️ **Con la excepción del apartado 3**: si compartías un vehículo, ese vehículo pasa a quien lleva
+más tiempo en él —con su historial y las gasolineras que ese historial usa— y tus repostajes se
+quedan ahí, sin tu nombre.
+
 Si lo solicitas por correo en lugar de desde la app, lo ejecutamos en un plazo máximo de
 30 días.
 
@@ -246,7 +252,7 @@ ante la autoridad de control de tu país. En España, la
 
 # Privacy Policy · Fueltic
 
-**Last updated:** 11 August 2026
+**Last updated:** 12 August 2026
 
 ## 1. Summary
 
@@ -283,7 +289,9 @@ from Settings → User profile.
 vehicle, so that you all keep the same fuel log. This is the only feature in Fueltic where your
 data becomes visible to someone else, and it always requires you to send the invitation. Whoever
 accepts sees **the fuel-ups, amounts, stations and notes of that vehicle**, and can add, correct
-and delete them; they do not see your other vehicles, your preferences or anything from your
+and correct them — but **delete only their own**: fuel-ups logged by someone else can only be
+deleted by whoever created the vehicle, who is also the only person who can delete the vehicle
+itself. They do not see your other vehicles, your preferences or anything from your
 profile. You each see **the name** of the other people in the vehicle, so you know who logged
 what: that name is the one Google gave us or, if you signed up with a password, **the part of your
 email before the @** — the full address is never shown. Invitations are **single-use**, **expire
