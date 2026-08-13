@@ -29,6 +29,31 @@ Lo ejecutamos en un **plazo máximo de 30 días** y te confirmamos cuando esté 
 
 ---
 
+## Borrar solo una parte, sin eliminar la cuenta
+
+**No hace falta borrarlo todo para borrar algo.** Puedes eliminar registros sueltos desde la propia
+aplicación, y desaparecen de todos tus dispositivos en cuanto se sincroniza:
+
+| Qué quieres borrar | Dónde                                               |
+| ------------------ | --------------------------------------------------- |
+| Un **repostaje**   | Historial → toca el repostaje → **Eliminar**        |
+| Un **vehículo**    | Vehículos → el lápiz del vehículo → **Eliminar**    |
+| Una **gasolinera** | Al elegir gasolinera en un repostaje → **Eliminar** |
+
+Lo borrado deja de mostrarse **al instante** y se retira de nuestros servidores de forma definitiva
+**en un plazo máximo de 180 días**. Ese margen existe por una razón concreta: es lo que permite que
+el borrado llegue también a un móvil tuyo que llevara tiempo sin abrir la aplicación.
+
+**Si quieres borrar algo que no puedes eliminar tú**, escribe a
+**[hola@fueltic.com](mailto:hola@fueltic.com?subject=Borrar%20parte%20de%20mis%20datos)** desde la
+dirección con la que te registraste, diciendo qué quieres que borremos. Lo hacemos en un **plazo
+máximo de 30 días** y te confirmamos cuando esté hecho. **Tu cuenta sigue existiendo.**
+
+⚠️ **En un vehículo compartido**, borrar un repostaje lo borra **para todas las personas** del
+vehículo: el historial es uno solo y el consumo se calcula sobre él.
+
+---
+
 ## Qué se elimina
 
 Al eliminar tu cuenta se borra de forma **permanente e irreversible** todo lo que tenemos:
@@ -74,6 +99,31 @@ Más detalle en la [política de privacidad](privacidad.html).
 
 You can delete your account and all your data in two ways. You do **not** need the app
 installed to request it.
+
+## Delete only some data, without deleting your account
+
+**You don't have to delete everything to delete something.** You can remove individual records from
+the app itself, and they disappear from all your devices as soon as it syncs:
+
+| What you want to delete | Where                                            |
+| ----------------------- | ------------------------------------------------ |
+| A **fill-up**           | History → tap the fill-up → **Delete**           |
+| A **vehicle**           | Vehicles → the pencil icon → **Delete**          |
+| A **station**           | When picking a station on a fill-up → **Delete** |
+
+Deleted records stop showing **immediately** and are permanently removed from our servers **within
+180 days**. That window exists for a reason: it is what lets the deletion also reach a device of
+yours that hasn't opened the app in a while.
+
+**If you want something deleted that you can't remove yourself**, write to
+**[hola@fueltic.com](mailto:hola@fueltic.com?subject=Delete%20some%20of%20my%20data)** from the
+address you signed up with, saying what you want removed. We do it **within 30 days** and confirm
+when it's done. **Your account stays.**
+
+⚠️ **In a shared vehicle**, deleting a fill-up deletes it **for everyone** in that vehicle: there is
+a single history and consumption is calculated from it.
+
+---
 
 ## Option 1 · From the app (immediate)
 
